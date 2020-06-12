@@ -1,0 +1,46 @@
+.minute-input-container {
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    font-size: 2em;
+}
+
+.minute-input-container span {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+
+.minute-input-container * {
+    margin-right: 0.5em;
+}
+
+.minutes-input {
+    padding: 0.4em;
+    width: 4em;
+    text-align: center;
+    font-size: 0.4em;
+}
+
+.start-btn {
+    padding: 0.45em;
+    width: 4.5em;
+    background-color: #4cb396;
+    color: #ffffff;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 0.4em;
+}
+
+.start-btn:hover {
+    background-color: #35836d;
+}
+
+.start-btn:active {
+    background-color: #1c473b;
+}
+
+button.start-btn:disabled, button.start-btn[disabled] {
+    background-color: #7e7e7e !important;
+}

@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { actionsCreators } from './store/actions'
+import InputTime from './components/InputTime'
+import CountDown from './components/CountDown'
+import TimerMessage from './components/TimerMessage'
 import './App.css';
 
-function App() {
+function App({action, storeState}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'main-container'}>
+      <InputTime timer={storeState.timer} action={action}/>
+      <TimerMessage timer={storeState.timer}/>
+      <CountDown timer={storeState.timer} action={action}/>
     </div>
   );
 }
 
-export default App;
+
+function mapStateToProps(state) {
+  return { storeState: state }
+}
+
+function mapDispatchToProps(dispatch) {
+  return { actions: bindActionCreators(actionsCreators, dispatch) }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App);

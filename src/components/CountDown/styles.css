@@ -1,0 +1,48 @@
+.time-caption {
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.velocity-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.velocity-btn {
+    font-size: 0.8em;
+    padding: 0.4em 0;
+    width: 3em;
+    outline: 0;
+    border: 0.15em solid black;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.velocity-btn:hover {
+    background-color: #a0a069;
+}
+
+.velocity-btn:active, .velocity-btn.active  {
+    background-color: #545438;
+    color: white;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 51%;
+    transform: translateY(-50%);
+    outline: 0;
+    border-radius: 50%;
+    border-color: #000;
+    background-color: white;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button.toggle-btn:disabled, button.toggle-btn[disabled] {
+    border-color: #7e7e7e !important;
+    color: #7e7e7e !important;
+}
