@@ -1,5 +1,9 @@
 # Deep Consulting: Front End Test
 
+## Deployment URL (App can be found at this URL):
+
+https://deep-consulting-test.web.app/
+
 ## App recording:
 
 ![app Demo](https://github.com/nandodrw/deep-test-frontend-/blob/master/public/Screen%20Recording%202020-06-11%20at%2023.13.52.gif)
