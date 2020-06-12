@@ -1,3 +1,20 @@
+# Deep Consulting: Front End Test
+
+## App recording:
+
+![app Demo](https://github.com/nandodrw/deep-test-frontend-/blob/master/public/Screen%20Recording%202020-06-11%20at%2023.13.52.gif)
+
+## App screenshots:
+
+![screen 1](https://github.com/nandodrw/deep-test-frontend-/blob/master/public/sh-1.png)
+
+![screen 2](https://github.com/nandodrw/deep-test-frontend-/blob/master/public/sh-2.png)
+
+![screen 3](https://github.com/nandodrw/deep-test-frontend-/blob/master/public/sh-3.png)
+
+
+# Project set up for local development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
