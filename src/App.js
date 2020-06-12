@@ -5,7 +5,7 @@ import { actionsCreators } from './store/actions'
 import InputTime from './components/InputTime'
 import CountDown from './components/CountDown'
 import TimerMessage from './components/TimerMessage'
-import './App.css';
+import './App.css'
 
 function App({action, storeState}) {
   return (

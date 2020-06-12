@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {connect} from "react-redux";
-import {RESTART_TIMER, speedupTimer, toggleTimer} from "../../store/actions";
+import {connect} from "react-redux"
+import {RESTART_TIMER, speedupTimer, toggleTimer} from "../../store/actions"
 import './styles.css'
 
 class CountDown extends Component {
